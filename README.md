@@ -35,6 +35,7 @@ drop the hold. Both the grace and the floor are configurable.
 
 ```sh
 brew tap 4lb0/mateinate https://github.com/4lb0/mateinate
+brew trust 4lb0/mateinate   # Homebrew only trusts its own taps by default
 brew install mateinate
 mateinate install          # installs the LaunchAgents, asks for the sudo rule once
 mateinate status
